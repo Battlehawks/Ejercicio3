@@ -1,6 +1,6 @@
 import { ProductContainer, Circle, Image, Info, Icon } from './styledComponents';
 import { Link } from 'react-router-dom';
-
+ 
 const Item = ({ id, title, stock, price, pictureUrl }) => {
     return (
         <ProductContainer>
